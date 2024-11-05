@@ -1,5 +1,3 @@
-const api_key = "007167cf53e3061a5ec1f473d56960ee";
-
 // https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}/
 // get city name input
 // get or fetch data
@@ -50,7 +48,7 @@ function displayData(data) {
     weather: [{ description }],
   } = data;
 
-  info_div.textContent = ""
+  info_div.textContent = "";
 
   const newDiv = document.createElement("div");
   const city_name = document.createElement("h2");
