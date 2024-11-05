@@ -50,6 +50,8 @@ function displayData(data) {
     weather: [{ description }],
   } = data;
 
+  info_div.textContent = ""
+
   const newDiv = document.createElement("div");
   const city_name = document.createElement("h2");
   const temperature1 = document.createElement("p");
